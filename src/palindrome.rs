@@ -16,7 +16,6 @@ impl Solution {
             } else {
                 break;
             }
-            println!("{init}");
         }
 
         res == x
