@@ -1,0 +1,10 @@
+mod atoi;
+mod candies;
+mod compression;
+mod flowers;
+mod merge_strings;
+mod palindrome;
+mod product;
+mod reverse;
+mod triplet;
+mod vowels;
