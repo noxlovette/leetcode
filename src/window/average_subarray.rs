@@ -2,7 +2,7 @@ use crate::Solution;
 use std::ops::Div;
 
 impl Solution {
-    fn find_max_average(nums: Vec<i32>, k: i32) -> f64 {
+    pub fn find_max_average(nums: Vec<i32>, k: i32) -> f64 {
         let average = |x: f64| x.div(k as f64);
         let mut read = 0;
         let window = &nums[read..read + k as usize];
