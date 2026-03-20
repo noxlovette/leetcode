@@ -1,10 +1,12 @@
 use std::collections::VecDeque;
 
 #[derive(Default)]
+#[allow(dead_code)]
 struct RecentCounter {
     queue: VecDeque<i32>,
 }
 
+#[allow(dead_code)]
 impl RecentCounter {
     fn new() -> Self {
         Self {
