@@ -1,4 +1,5 @@
 mod hash;
+mod list;
 mod pointers;
 mod prefix_sum;
 mod queue;
