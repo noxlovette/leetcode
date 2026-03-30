@@ -57,6 +57,7 @@ fn traverse(
         total_paths += v;
     }
 
+    // a path ending here has target sum if an earlier prefix sum equals current_prefix - target
     path.entry(child_sum).and_modify(|e| *e += 1).or_insert(1);
 
     if let Some(left) = left.as_ref() {
